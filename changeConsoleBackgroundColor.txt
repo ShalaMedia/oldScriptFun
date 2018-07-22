@@ -1,0 +1,16 @@
+﻿using System;
+
+namespace changeConsoleBackgroundColor
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.BackgroundColor = ConsoleColor.Magenta;
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.White;
+
+        }
+    }
+}
+
